@@ -1,0 +1,116 @@
+/* All the body text gets this font and color */
+
+body {
+  font-family: Poppins, sans-serif;
+  color: var(--body-text-color);
+}
+
+/* Header styles */
+header {
+  padding: 24px;
+  font-size: 1.125rem;
+  text-decoration: none;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--nav-color);
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 1rem;
+  vertical-align: top;
+  display: inline-block;
+  padding-top: 1rem;
+}
+
+.nav-links {
+  margin: 10px;
+  vertical-align: top;
+  display: inline-block;
+  padding-top: 1rem;
+  margin-left: 55%;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.info a {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
+.info span {
+  color: var(--info-color);
+  margin-right: 15px;
+  display: inline-block;
+}
+
+/* Main styles */
+h1 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 2.625rem;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+main {
+  padding: 15px;
+  max-width: 620px;
+  margin: auto;
+}
+
+main p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+main a {
+  color: var(--accent-color);
+}
+/* Footer styles */
+footer {
+  background-color: var(--footer-background-color);
+  color: var(--footer-text-color);
+  padding: 3rem;
+}
+
+footer h4 {
+  font-family: "Libre Baskerville", serif;
+  color: var(--accent-color);
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+footer p {
+  max-width: 500px;
+  margin: auto;
+}
+
+footer li {
+  list-style: none;
+  padding-top: 5px;
+}
+
+footer a {
+  color: var(--footer-text-color);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer ul {
+  padding: 0;
+  width: 500px;
+  margin: 20px auto;
+}
+
+.social-icons {
+  fill: var(--footer-text-color);
+  text-align: center;
+}

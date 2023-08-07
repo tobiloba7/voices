@@ -1,0 +1,43 @@
+/*
+This file loads the fonts and defines the colors you will use. It also resets some of the styles on the body.
+*/
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+    src: url('/fonts/libre-baskerville-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+  --body-text-color: #1D1D1D;
+  --body-background-color: #FFFFFF;
+  --nav-color: #474747;
+  --info-color: #767676;
+  --accent-color: #3da639;
+  --footer-text-color: #FFFFFF;
+  --footer-background-color: #1D1D1D;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
